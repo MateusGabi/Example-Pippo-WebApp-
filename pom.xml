@@ -7,6 +7,48 @@
     <groupId>net.mateusgabi</groupId>
     <artifactId>AppExamplePippo</artifactId>
     <version>1.0.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <pippo.version>1.5.0</pippo.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-core</artifactId>
+            <version>${pippo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-freemarker</artifactId>
+            <version>${pippo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-jackson</artifactId>
+            <version>${pippo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-tomcat</artifactId>
+            <version>${pippo.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
