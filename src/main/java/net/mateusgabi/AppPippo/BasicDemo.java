@@ -1,4 +1,4 @@
-package net.mateusgabi.AppExamplePippo;
+package net.mateusgabi.AppPippo;
 
 import ro.pippo.core.Pippo;
 
@@ -10,10 +10,6 @@ public class BasicDemo {
 
     public static void main(String[] args) {
         Pippo pippo = new Pippo(new AppExample());
-
-        // setting to localhost:8080
-        pippo.getServer().getSettings().port(8080);
-
         pippo.start();
     }
 

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.mateusgabi</groupId>
-    <artifactId>AppExamplePippo</artifactId>
+    <artifactId>AppPippo</artifactId>
     <version>1.0.0</version>
 
 
@@ -35,7 +35,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.7.7</slf4j.version>
         <pippo.version>1.5.0</pippo.version>
-        <main.class>net.mateusgabi.AppExamplePippo.BasicDemo</main.class>
+        <main.class>net.mateusgabi.AppPippo.BasicDemo</main.class>
     </properties>
 
     <build>
@@ -109,8 +109,6 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.3.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>

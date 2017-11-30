@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AppExamplePippo" />
+        <module name="AppPippo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AppExamplePippo" target="1.8" />
+      <module name="AppPippo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

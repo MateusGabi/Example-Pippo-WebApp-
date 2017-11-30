@@ -1,4 +1,4 @@
-package net.mateusgabi.AppExamplePippo;
+package net.mateusgabi.AppPippo;
 
 import java.io.Serializable;
 
