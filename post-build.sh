@@ -2,6 +2,12 @@
 
 echo "Post-building script starting..."
 
+echo "checking..."
+
+mvn -v
+gunzip -v
+java -v
+
 echo "Maven packaging"
 mvn clean package
 
