@@ -12,6 +12,8 @@ public class BasicDemo {
         Pippo pippo = new Pippo(new AppExample());
         pippo.getServer().setPort(0);
         pippo.start();
+
+        System.out.println("Deployed on: https://localhost:" + args[0]);
     }
 
 }
